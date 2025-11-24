@@ -1,0 +1,12 @@
+---
+import Background from '@/components/Background.astro';
+import { ContainerFlyingPosters } from '@/components/flying-posters/ContainerFlyingPosters';
+import Hero from '@/components/Hero.astro';
+import Layout from '@/layouts/Layout.astro';
+---
+
+<Layout>
+  <Background />
+  <ContainerFlyingPosters client:only="react"  />
+  <Hero />
+</Layout>

@@ -1,0 +1,23 @@
+---
+import { baseUrl } from '@/utils/functions';
+import { arrayCards, lengthOfProjects } from '@/utils/data';
+---
+
+<section class='am-container-cards'>
+  {
+    arrayCards.map(({ id, localImage, canvaWeb, title }) => (
+      <aside class='card' />
+    ))
+  }
+</section>
+
+<style>
+  .am-container-cards {
+    min-height: 100vh;
+    display: grid;
+    padding: 2.2vmax;
+    gap: 2.2vmax;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17vmax, 1fr));
+  }
+</style>

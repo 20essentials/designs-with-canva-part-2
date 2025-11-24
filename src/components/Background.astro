@@ -1,0 +1,246 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  canvas {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+</style>
+
+<canvas id='shaderCanvas'></canvas>
+
+<script>
+  const canvas = document.getElementById('shaderCanvas') as HTMLCanvasElement;
+  const gl = canvas.getContext('webgl') as WebGLRenderingContext;
+
+  if (!gl) {
+    alert('WebGL not supported');
+    throw new Error('WebGL not supported');
+  }
+
+  function createShader(
+    gl: WebGLRenderingContext,
+    type: number,
+    source: string
+  ): WebGLShader | null {
+    const shader = gl.createShader(type);
+    if (!shader) return null;
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+      console.error('Shader compile error:', gl.getShaderInfoLog(shader));
+      gl.deleteShader(shader);
+      return null;
+    }
+    return shader;
+  }
+
+  const vertexShaderSource = `
+    attribute vec2 position;
+    void main() {
+        gl_Position = vec4(position, 0.0, 1.0);
+    }
+`;
+
+  const fragmentShaderSource = `
+    precision highp float;
+    uniform vec2 resolution;
+    uniform float time;
+    uniform vec2 mouse;
+    uniform vec2 rippleCenter;
+    uniform float rippleTime;
+    
+    vec2 fluidFlow(vec2 p, vec2 mousePos, float strength) {
+        vec2 diff = mousePos - p;
+        float dist = length(diff);
+        float factor = exp(-dist * 1.5) * strength;
+        return diff * factor;
+    }
+    
+    void main() {
+        vec2 uv = (gl_FragCoord.xy * 2.0 - resolution.xy) / min(resolution.x, resolution.y);
+        float t = time * 0.5;
+        vec2 m = (mouse * 2.0 - resolution.xy) / min(resolution.x, resolution.y);
+        uv *= 1.5;
+        
+        vec3 finalColor = vec3(0.0);
+        float totalIntensity = 0.0;
+        
+        float attractStrength = 0.6;
+        vec2 flow = fluidFlow(uv, m, attractStrength);
+        
+        for(float i = 0.0; i < 4.0; i++) {
+            vec2 p = uv;
+            float id = i + 1.0;
+            p += flow / (id * 0.25);
+            p.x += sin(t * id * 0.4) * 0.8;
+            p.y += cos(t * id * 0.3) * 0.8;
+            
+            float angle = atan(p.y, p.x) * 2.0;
+            float dist = length(p) * 1.5;
+            
+            float pattern = sin(dist * 5.0 - t * 3.0 + angle * 2.0) +
+                           cos(dist * 6.0 - t * 2.0 + angle * 3.0) +
+                           sin(dist * 7.0 - t * 4.0 + angle);
+            
+            pattern = abs(pattern) / 3.0;
+            pattern = pow(0.1 / (pattern + 0.1), 1.5);
+            
+            vec3 baseColor = vec3(1.0, 0.2, 0.3);
+            if(i == 1.0) baseColor = vec3(0.2, 0.8, 1.0);
+            if(i == 2.0) baseColor = vec3(1.0, 0.8, 0.2);
+            if(i == 3.0) baseColor = vec3(0.8, 0.2, 1.0);
+            
+            vec3 color = baseColor * (0.6 + 0.4 * cos(vec3(0.0, 0.3, 0.6) * 6.28 + t + id));
+            float highlight = exp(-dist * 2.0) * 1.8;
+            
+            finalColor += color * (pattern + highlight) * (1.2 / id);
+            totalIntensity += pattern;
+        }
+        
+        vec2 rc = (rippleCenter * 2.0 - resolution.xy) / min(resolution.x, resolution.y);
+        float d = length(uv - rc);
+        float normalizedTime = clamp(rippleTime / 1.5, 0.0, 1.0);
+        
+        float rippleWave = sin(15.0 * (d - rippleTime * 2.2)) *
+                          cos(10.0 * (d - rippleTime * 1.8)) *
+                          exp(-d * 1.2) *
+                          (1.0 - pow(normalizedTime, 1.5));
+        
+        vec3 rippleColor = vec3(0.8, 0.3, 1.0) + 
+                          vec3(0.2, 0.5, 0.4) * cos(rippleTime * 4.0);
+        finalColor += rippleColor * rippleWave * 0.7;
+        
+        finalColor /= (totalIntensity * 0.3 + 1.0);
+        finalColor = pow(finalColor, vec3(0.7));
+        finalColor *= 1.3;
+        
+        gl_FragColor = vec4(finalColor, 1.0);
+    }
+`;
+
+  const vertexShader = createShader(gl, gl.VERTEX_SHADER, vertexShaderSource);
+  const fragmentShader = createShader(
+    gl,
+    gl.FRAGMENT_SHADER,
+    fragmentShaderSource
+  );
+
+  if (!vertexShader || !fragmentShader) {
+    throw new Error('Shader creation failed');
+  }
+
+  const program = gl.createProgram() as WebGLProgram;
+  gl.attachShader(program, vertexShader);
+  gl.attachShader(program, fragmentShader);
+  gl.linkProgram(program);
+
+  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+    console.error('Program link error:', gl.getProgramInfoLog(program));
+    throw new Error('Program link failed');
+  }
+
+  gl.useProgram(program);
+
+  const vertices = new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]);
+  const buffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+  gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+
+  const positionLocation = gl.getAttribLocation(program, 'position');
+  gl.enableVertexAttribArray(positionLocation);
+  gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
+
+  const resolutionLocation = gl.getUniformLocation(program, 'resolution');
+  const timeLocation = gl.getUniformLocation(program, 'time');
+  const mouseLocation = gl.getUniformLocation(program, 'mouse');
+  const rippleCenterLocation = gl.getUniformLocation(program, 'rippleCenter');
+  const rippleTimeLocation = gl.getUniformLocation(program, 'rippleTime');
+
+  let mouse = { x: 0, y: 0 };
+  let targetMouse = { x: 0, y: 0 };
+  const smoothing = 0.15;
+
+  function updateMouse() {
+    mouse.x += (targetMouse.x - mouse.x) * smoothing;
+    mouse.y += (targetMouse.y - mouse.y) * smoothing;
+  }
+
+  canvas.addEventListener('mousemove', e => {
+    targetMouse = {
+      x: e.clientX,
+      y: canvas.height - e.clientY
+    };
+  });
+
+  canvas.addEventListener('mouseout', () => {
+    targetMouse = {
+      x: canvas.width / 2,
+      y: canvas.height / 2
+    };
+  });
+
+  let ripple = {
+    active: false,
+    center: { x: canvas.width / 2, y: canvas.height / 2 },
+    startTime: 0,
+    duration: 1.8
+  };
+
+  canvas.addEventListener('click', e => {
+    ripple.center = {
+      x: e.clientX,
+      y: canvas.height - e.clientY
+    };
+    ripple.startTime = performance.now() * 0.001;
+    ripple.active = true;
+  });
+
+  function resize() {
+    const displayWidth = canvas.clientWidth;
+    const displayHeight = canvas.clientHeight;
+
+    if (canvas.width !== displayWidth || canvas.height !== displayHeight) {
+      canvas.width = displayWidth;
+      canvas.height = displayHeight;
+      gl.viewport(0, 0, canvas.width, canvas.height);
+    }
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+
+  mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+  targetMouse = { ...mouse };
+
+  function render(time: number) {
+    time *= 0.001;
+    updateMouse();
+
+    let currentRippleTime = 10.0;
+    if (ripple.active) {
+      currentRippleTime = time - ripple.startTime;
+      if (currentRippleTime > ripple.duration) {
+        ripple.active = false;
+        currentRippleTime = 10.0;
+      }
+    }
+
+    gl.uniform2f(resolutionLocation, canvas.width, canvas.height);
+    gl.uniform1f(timeLocation, time);
+    gl.uniform2f(mouseLocation, mouse.x, mouse.y);
+    gl.uniform2f(rippleCenterLocation, ripple.center.x, ripple.center.y);
+    gl.uniform1f(rippleTimeLocation, currentRippleTime);
+
+    gl.drawArrays(gl.TRIANGLES, 0, 6);
+    requestAnimationFrame(render);
+  }
+
+  requestAnimationFrame(render);
+</script>
