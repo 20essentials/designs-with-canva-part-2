@@ -1,12 +1,11 @@
+import { baseUrl } from '@/utils/functions';
 import FlyingPosters from './FlyingPosters';
 import { arrayCards } from '@/utils/data';
 
 const items = arrayCards.map(({ localImage, canvaWeb }) => ({
-  srcImage: localImage,
+  srcImage: baseUrl(localImage),
   web: canvaWeb
 }));
-// export type ArrayItem = { srcImage: string; web: string }[];
-
 
 export const ContainerFlyingPosters = () => {
   return (
