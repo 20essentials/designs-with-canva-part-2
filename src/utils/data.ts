@@ -121,6 +121,12 @@ export const arrayCards = [
     localImage: '/assets/flups-slider.avif',
     id: '20'
   },
+  {
+    title: 'Paris Post',
+    canvaWeb: 'https://www.canva.com/design/DAG5yimCGvI/bcgh53q3kqynL1manaG7lw/view?utm_content=DAG5yimCGvI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd72e0d2be3',
+    localImage: '/assets/paris-post.avif',
+    id: '21'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;

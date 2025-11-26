@@ -186,6 +186,7 @@ function AutoBind(self: any, { include, exclude }: AutoBindOptions = {}) {
     return true;
   };
 
+  //@ts-ignore
   for (const [object, key] of getAllProperties(self.constructor.prototype)) {
     if (key === 'constructor' || !filter(key)) continue;
     const descriptor = Reflect.getOwnPropertyDescriptor(object, key);
