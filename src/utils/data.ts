@@ -127,6 +127,18 @@ export const arrayCards = [
     localImage: '/assets/paris-post.avif',
     id: '21'
   },
+  {
+    title: 'App Foto FoldX',
+    canvaWeb: 'https://www.canva.com/design/DAG5_FRj1-Q/APou6G0nmLvrTyx7E7ARNg/view?utm_content=DAG5_FRj1-Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb58a8f0bf5',
+    localImage: '/assets/app-foto-foldx.avif',
+    id: '22'
+  },
+  {
+    title: 'App Device Mockup',
+    canvaWeb: 'https://www.canva.com/design/DAG5_C_GN5o/yDtEtn0zlrvSpsIR4MNAcQ/view?utm_content=DAG5_C_GN5o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc018bae20b',
+    localImage: '/assets/app-device-mockup.avif',
+    id: '23'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
