@@ -139,6 +139,12 @@ export const arrayCards = [
     localImage: '/assets/app-device-mockup.avif',
     id: '23'
   },
+  {
+    title: 'Cartoonify App',
+    canvaWeb: 'https://www.canva.com/design/DAG6LdZ1yF0/gk1sGP3CixsWWbaYPO-7WA/view?utm_content=DAG6LdZ1yF0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h77b333fb75',
+    localImage: '/assets/cartoonify-app.avif',
+    id: '24'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
