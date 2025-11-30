@@ -145,6 +145,12 @@ export const arrayCards = [
     localImage: '/assets/cartoonify-app.avif',
     id: '24'
   },
+  {
+    title: 'Polaroid Frame Animation',
+    canvaWeb: 'https://www.canva.com/design/DAG6LcCH16Y/GY2kul8Kl7tP6ltWPEoKWw/watch?utm_content=DAG6LcCH16Y&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h035b37dbde',
+    localImage: '/assets/polaroid-frame-animation.avif',
+    id: '25'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
