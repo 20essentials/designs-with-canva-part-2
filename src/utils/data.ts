@@ -151,6 +151,12 @@ export const arrayCards = [
     localImage: '/assets/polaroid-frame-animation.avif',
     id: '25'
   },
+  {
+    title: 'Sailor',
+    canvaWeb: 'https://www.canva.com/design/DAG6XV7YFKo/-utCA5mKHIGrAzfTUKnxJQ/view?utm_content=DAG6XV7YFKo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4b6d476b26',
+    localImage: '/assets/sailor.avif',
+    id: '26'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
