@@ -157,6 +157,12 @@ export const arrayCards = [
     localImage: '/assets/sailor.avif',
     id: '26'
   },
+  {
+    title: 'Envelope Effect',
+    canvaWeb: 'https://www.canva.com/design/DAG6jX4vigE/cOGS2MYmxvrCfctZb69Hsw/view?utm_content=DAG6jX4vigE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8a7a2abf54',
+    localImage: '/assets/envelope-effect.avif',
+    id: '27'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
