@@ -163,6 +163,12 @@ export const arrayCards = [
     localImage: '/assets/envelope-effect.avif',
     id: '27'
   },
+  {
+    title: 'Element Codes',
+    canvaWeb: 'https://www.canva.com/design/DAG6ub-9aY0/gcL0rNEjvtJLhg0gtWvgPg/view?utm_content=DAG6ub-9aY0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdef964079f',
+    localImage: '/assets/element-codes.avif',
+    id: '28'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
