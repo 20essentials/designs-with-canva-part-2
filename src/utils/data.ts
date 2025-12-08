@@ -169,6 +169,12 @@ export const arrayCards = [
     localImage: '/assets/element-codes.avif',
     id: '28'
   },
+  {
+    title: '3d on Canva',
+    canvaWeb: 'https://www.canva.com/design/DAG67Nx24e4/ZcUTLCniit7o2Xn6beOkLw/view?utm_content=DAG67Nx24e4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h874fe8a622',
+    localImage: '/assets/3d-on-canva.avif',
+    id: '29'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
