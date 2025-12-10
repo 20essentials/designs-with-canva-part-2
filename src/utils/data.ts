@@ -175,6 +175,12 @@ export const arrayCards = [
     localImage: '/assets/3d-on-canva.avif',
     id: '29'
   },
+  {
+    title: 'Custom Shadows',
+    canvaWeb: 'https://www.canva.com/design/DAG7ICv_1aU/tb0FWYz9XTjjjo1fiCKxew/view?utm_content=DAG7ICv_1aU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h002147c5d3',
+    localImage: '/assets/custom-shadows.avif',
+    id: '30'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
