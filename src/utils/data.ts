@@ -181,6 +181,12 @@ export const arrayCards = [
     localImage: '/assets/custom-shadows.avif',
     id: '30'
   },
+  {
+    title: 'BrandFetch App',
+    canvaWeb: 'https://www.canva.com/design/DAG7ULiQejQ/u34EAwIejli3exfdLUiPIA/view?utm_content=DAG7ULiQejQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb70bf00721',
+    localImage: '/assets/brandfetch-app.avif',
+    id: '31'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
