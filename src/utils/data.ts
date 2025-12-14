@@ -187,6 +187,12 @@ export const arrayCards = [
     localImage: '/assets/brandfetch-app.avif',
     id: '31'
   },
+  {
+    title: 'Parts transition',
+    canvaWeb: 'https://www.canva.com/design/DAG7gD_9nYk/UfQ6WyoQxOD01IqCGB0afw/watch?utm_content=DAG7gD_9nYk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hda047af86c',
+    localImage: '/assets/parts-transition.avif',
+    id: '32'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
