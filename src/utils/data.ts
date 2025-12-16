@@ -193,6 +193,12 @@ export const arrayCards = [
     localImage: '/assets/parts-transition.avif',
     id: '32'
   },
+  {
+    title: 'Random Elements on Canva',
+    canvaWeb: 'https://www.canva.com/design/DAG7qx-Cn_I/WfHVJvFLbTEpsiG0V7T6aQ/view?utm_content=DAG7qx-Cn_I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f237ce674',
+    localImage: '/assets/random-elements-on-canva.avif',
+    id: '33'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
