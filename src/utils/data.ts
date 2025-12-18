@@ -230,7 +230,14 @@ export const arrayCards = [
       'https://www.canva.com/design/DAG7qx-Cn_I/WfHVJvFLbTEpsiG0V7T6aQ/view?utm_content=DAG7qx-Cn_I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6f237ce674',
     localImage: '/assets/random-elements-on-canva.avif',
     id: '33'
-  }
+  },
+  {
+    title: 'Gen Motion App',
+    canvaWeb:
+      'https://www.canva.com/design/DAG74q8P7HM/SHQVPSqlRpC6IZCKGO03qQ/view?utm_content=DAG74q8P7HM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he85999fa40',
+    localImage: '/assets/gen-motion-app.avif',
+    id: '34'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
