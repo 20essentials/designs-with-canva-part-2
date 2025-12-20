@@ -238,6 +238,13 @@ export const arrayCards = [
     localImage: '/assets/gen-motion-app.avif',
     id: '34'
   },
+  {
+    title: 'Warp Bush effect',
+    canvaWeb:
+      'https://www.canva.com/design/DAG8Dx-CAB4/toEGHjag8wB75rOnKNYKpQ/view?utm_content=DAG8Dx-CAB4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6cc2c6b0c6',
+    localImage: '/assets/warp-bush-effect.avif',
+    id: '35'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
