@@ -245,6 +245,13 @@ export const arrayCards = [
     localImage: '/assets/warp-bush-effect.avif',
     id: '35'
   },
+  {
+    title: 'Screenshot → Canva → magic ✨',
+    canvaWeb:
+      'https://www.canva.com/design/DAG8O7N25Q0/S2l5WtZW2pXnztO51IS2VQ/view?utm_content=DAG8O7N25Q0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h26bba10be8',
+    localImage: '/assets/screnshot-post-up.avif',
+    id: '36'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
