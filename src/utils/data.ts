@@ -252,6 +252,13 @@ export const arrayCards = [
     localImage: '/assets/screnshot-post-up.avif',
     id: '36'
   },
+  {
+    title: 'FrameSpark App',
+    canvaWeb:
+      'https://www.canva.com/design/DAG8a-c2EYA/YoENxlDaivbhGbKJ06n4yQ/watch?utm_content=DAG8a-c2EYA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd13bb0eddf',
+    localImage: '/assets/framespark.avif',
+    id: '37'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
