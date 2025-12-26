@@ -259,6 +259,13 @@ export const arrayCards = [
     localImage: '/assets/framespark.avif',
     id: '37'
   },
+  {
+    title: 'Moda',
+    canvaWeb:
+      'https://www.canva.com/design/DAG8nOLWsdY/-hcTYPFKFQ7YPHXtwShUdg/view?utm_content=DAG8nOLWsdY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h90790e0f31',
+    localImage: '/assets/moda.avif',
+    id: '38'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
