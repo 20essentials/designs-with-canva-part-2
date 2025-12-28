@@ -266,6 +266,13 @@ export const arrayCards = [
     localImage: '/assets/moda.avif',
     id: '38'
   },
+  {
+    title: 'Glass maker',
+    canvaWeb:
+      'https://www.canva.com/design/DAG8zQugoRI/QIsfEWn26J6PHpO_eX9ycA/watch?utm_content=DAG8zQugoRI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd3df6a1dc9',
+    localImage: '/assets/glass-maker.avif',
+    id: '39'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
