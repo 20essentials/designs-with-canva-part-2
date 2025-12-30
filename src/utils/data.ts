@@ -273,6 +273,13 @@ export const arrayCards = [
     localImage: '/assets/glass-maker.avif',
     id: '39'
   },
+  {
+    title: 'Outline Images',
+    canvaWeb:
+      'https://www.canva.com/design/DAG8-g-BwV4/DmAcyjDAFrugNqMn_X7fEg/watch?utm_content=DAG8-g-BwV4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h95061690d3',
+    localImage: '/assets/outline-images.avif',
+    id: '40'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
