@@ -280,6 +280,13 @@ export const arrayCards = [
     localImage: '/assets/outline-images.avif',
     id: '40'
   },
+  {
+    title: '3D Letters',
+    canvaWeb:
+      'https://www.canva.com/design/DAG9LQUXsKo/JQg92RXM0e6_z0dfgyQd7w/watch?utm_content=DAG9LQUXsKo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7b5e19c98b',
+    localImage: '/assets/3d-letters.avif',
+    id: '41'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
