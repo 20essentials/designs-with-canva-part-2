@@ -287,6 +287,13 @@ export const arrayCards = [
     localImage: '/assets/3d-letters.avif',
     id: '41'
   },
+  {
+    title: 'Style Image Blender',
+    canvaWeb:
+      'https://www.canva.com/design/DAG9XFpqoIw/3fpn71ieKuHFj76e9Hf5Zw/view?utm_content=DAG9XFpqoIw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4fa1de8126',
+    localImage: '/assets/style-image-blender.avif',
+    id: '42'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
