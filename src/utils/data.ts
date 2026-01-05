@@ -294,6 +294,13 @@ export const arrayCards = [
     localImage: '/assets/style-image-blender.avif',
     id: '42'
   },
+  {
+    title: 'Image Blend Toè and Bottom Layer',
+    canvaWeb:
+      'https://www.canva.com/design/DAG9ifHx76E/AxD02DsD5rkCNmde5t0_Yg/watch?utm_content=DAG9ifHx76E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0be547c0bc',
+    localImage: '/assets/image-blend-top-and-bottom-layer.avif',
+    id: '43'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
