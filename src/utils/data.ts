@@ -301,6 +301,13 @@ export const arrayCards = [
     localImage: '/assets/image-blend-top-and-bottom-layer.avif',
     id: '43'
   },
+  {
+    title: 'Video Flop',
+    canvaWeb:
+      'https://www.canva.com/design/DAG9vextMpc/lmVxj0lyksQpcdBBDrjZ5w/watch?utm_content=DAG9vextMpc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h162f5e6a58',
+    localImage: '/assets/video-flop.avif',
+    id: '44'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
