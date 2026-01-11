@@ -308,6 +308,13 @@ export const arrayCards = [
     localImage: '/assets/video-flop.avif',
     id: '44'
   },
+  {
+    title: 'Frame Letter',
+    canvaWeb:
+      'https://www.canva.com/design/DAG-GkD8o5g/oQZl57YEvp62Cm8zjXwabg/watch?utm_content=DAG-GkD8o5g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd450dc4379',
+    localImage: '/assets/frame-letters.avif',
+    id: '45'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
