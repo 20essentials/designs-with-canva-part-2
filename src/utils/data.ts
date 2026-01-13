@@ -321,7 +321,7 @@ export const arrayCards = [
       'https://www.canva.com/design/DAG-SwC8TWo/G3aRgsdVBGsWa3jpifPE2g/watch?utm_content=DAG-SwC8TWo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h85c722ddd8',
     localImage: '/assets/ligth-blue.avif',
     id: '46'
-  },
+  }
 ];
 
 export const lengthOfProjects = arrayCards.length;
