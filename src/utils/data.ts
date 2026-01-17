@@ -321,7 +321,14 @@ export const arrayCards = [
       'https://www.canva.com/design/DAG-SwC8TWo/G3aRgsdVBGsWa3jpifPE2g/watch?utm_content=DAG-SwC8TWo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h85c722ddd8',
     localImage: '/assets/ligth-blue.avif',
     id: '46'
-  }
+  },
+  {
+    title: 'Wine Preset',
+    canvaWeb:
+      'https://www.canva.com/design/DAG-rWoh9bY/Hhv75Z5AB0j-HmuLTSVzCg/watch?utm_content=DAG-rWoh9bY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc14e7ea078',
+    localImage: '/assets/wine-preset.avif',
+    id: '47'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
