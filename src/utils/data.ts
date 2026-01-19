@@ -329,6 +329,13 @@ export const arrayCards = [
     localImage: '/assets/wine-preset.avif',
     id: '47'
   },
+  {
+    title: 'Image Poster LipStick',
+    canvaWeb:
+      'https://www.canva.com/design/DAG-3BVQ5Nw/dHYNaE2qZidRcZLlcqHs5A/view?utm_content=DAG-3BVQ5Nw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0cc7188227',
+    localImage: '/assets/image-poster-lipstick.avif',
+    id: '48'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
