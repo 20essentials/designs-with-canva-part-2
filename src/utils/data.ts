@@ -336,6 +336,13 @@ export const arrayCards = [
     localImage: '/assets/image-poster-lipstick.avif',
     id: '48'
   },
+  {
+    title: 'Outline Neon Genesis',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_C3kDXas/c5PAdKWtILBHBRkMfSOb6A/watch?utm_content=DAG_C3kDXas&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbbaaad2e0d',
+    localImage: '/assets/outline-neon-genesis.avif',
+    id: '49'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
