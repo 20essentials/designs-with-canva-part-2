@@ -343,6 +343,13 @@ export const arrayCards = [
     localImage: '/assets/outline-neon-genesis.avif',
     id: '49'
   },
+  {
+    title: 'Typewriter Effect',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_PIysarQ/kRqssy4sHHUb8wr0u9od-A/watch?utm_content=DAG_PIysarQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h81de02b92a',
+    localImage: '/assets/typewriter-effect.avif',
+    id: '50'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
