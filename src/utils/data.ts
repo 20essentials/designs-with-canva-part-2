@@ -350,6 +350,27 @@ export const arrayCards = [
     localImage: '/assets/typewriter-effect.avif',
     id: '50'
   },
+  {
+    title: 'Red Black Scrapbook Photo Collage ',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_a1MRfFA/HsQY48yUXAKIkKwLATSiCQ/view?utm_content=DAG_a1MRfFA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h362767ea1e',
+    localImage: '/assets/red-black-scrapbook-photo-collage.avif',
+    id: '51'
+  },
+  {
+    title: 'Aesthetic Scrapbook Photo Collage ',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_a2CZqe8/04PXrrGmCLpnumxZYvJxqg/view?utm_content=DAG_a2CZqe8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hacfa648675',
+    localImage: '/assets/aesthetic-scrapbook-photo-collage.avif',
+    id: '52'
+  },
+  {
+    title: 'Template That I like: Modern Hiring',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_a631hNg/jdhpvdQjBECEhCii53AcUw/view?utm_content=DAG_a631hNg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8944449778',
+    localImage: '/assets/template-that-i-like-modern-hiring.avif',
+    id: '53'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
