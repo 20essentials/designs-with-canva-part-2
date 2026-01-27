@@ -371,6 +371,13 @@ export const arrayCards = [
     localImage: '/assets/template-that-i-like-modern-hiring.avif',
     id: '53'
   },
+  {
+    title: 'Sudoku app',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_nDQhGrw/RE_mkqB8oQmwHT52r_dDlA/view?utm_content=DAG_nDQhGrw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h02eb268cc1#2',
+    localImage: '/assets/sudoku-app.avif',
+    id: '54'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
