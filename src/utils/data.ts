@@ -378,6 +378,13 @@ export const arrayCards = [
     localImage: '/assets/sudoku-app.avif',
     id: '54'
   },
+  {
+    title: 'Ocean Sunset + Stroke Effect',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_zV3sYH0/qk2xR8AREfQ5sT2jzByemw/watch?utm_content=DAG_zV3sYH0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h24b370a1b5',
+    localImage: '/assets/ocean-sunset.avif',
+    id: '55'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
