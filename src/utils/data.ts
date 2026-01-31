@@ -385,6 +385,13 @@ export const arrayCards = [
     localImage: '/assets/ocean-sunset.avif',
     id: '55'
   },
+  {
+    title: 'Women Alphabet Text Design',
+    canvaWeb:
+      'https://www.canva.com/design/DAG_-ulXzDg/AZeIgQIfgAoWgp__39e1eg/watch?utm_content=DAG_-ulXzDg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41827fca47',
+    localImage: '/assets/women-alphabet-text-design.avif',
+    id: '56'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
