@@ -392,6 +392,13 @@ export const arrayCards = [
     localImage: '/assets/women-alphabet-text-design.avif',
     id: '56'
   },
+  {
+    title: 'speedPaint App',
+    canvaWeb:
+      'https://www.canva.com/design/DAHAKjC8ZZo/co9cSuybvRMuSShqgOPXfw/watch?utm_content=DAHAKjC8ZZo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he43f7f325e',
+    localImage: '/assets/speedpaint-app.avif',
+    id: '57'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
