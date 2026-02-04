@@ -399,6 +399,13 @@ export const arrayCards = [
     localImage: '/assets/speedpaint-app.avif',
     id: '57'
   },
+  {
+    title: 'Engraved Leather Planner',
+    canvaWeb:
+      'https://www.canva.com/design/DAHAWq7PfTA/E_LJTlwdCHFJ0rwdEchkBg/view?utm_content=DAHAWq7PfTA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6883904ce7',
+    localImage: '/assets/engraved-leather.avif',
+    id: '58'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
