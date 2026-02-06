@@ -406,6 +406,13 @@ export const arrayCards = [
     localImage: '/assets/engraved-leather.avif',
     id: '58'
   },
+  {
+    title: 'Canva IA - Birthday Card',
+    canvaWeb:
+      'https://simpl3-w3bsite-on-canv4.my.canva.site/canva-ia-birthday-card',
+    localImage: '/assets/canva-ia-birthday-card.avif',
+    id: '59'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
