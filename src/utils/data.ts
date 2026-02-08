@@ -413,6 +413,13 @@ export const arrayCards = [
     localImage: '/assets/canva-ia-birthday-card.avif',
     id: '59'
   },
+  {
+    title: 'Canva IA Image Generation',
+    canvaWeb:
+      'https://www.canva.com/design/DAHAva9i7EY/gVKXztqYqrkbcr4kcrgWlg/view?utm_content=DAHAva9i7EY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6876db384d',
+    localImage: '/assets/canva-ia.avif',
+    id: '60'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
