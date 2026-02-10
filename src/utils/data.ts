@@ -420,6 +420,13 @@ export const arrayCards = [
     localImage: '/assets/canva-ia.avif',
     id: '60'
   },
+  {
+    title: 'Seamless Pattern',
+    canvaWeb:
+      'https://www.canva.com/design/DAHA7VLo3Xw/FjweA6hiEl7PSJnG0eMe4w/view?utm_content=DAHA7VLo3Xw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe52943aad',
+    localImage: '/assets/seamless-pattern.avif',
+    id: '61'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
