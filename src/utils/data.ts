@@ -434,6 +434,13 @@ export const arrayCards = [
     localImage: '/assets/planner-stickers.avif',
     id: '62'
   },
+  {
+    title: 'Handwritten quotes',
+    canvaWeb:
+      'https://www.canva.com/design/DAHBHkTuovs/wkYfv6lSN4r0xbiTepjQWw/view?utm_content=DAHBHkTuovs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfa3d463f57',
+    localImage: '/assets/handwritten-quotes.avif',
+    id: '63'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
