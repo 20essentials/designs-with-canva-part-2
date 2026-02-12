@@ -427,6 +427,13 @@ export const arrayCards = [
     localImage: '/assets/seamless-pattern.avif',
     id: '61'
   },
+  {
+    title: 'Planner Stickers',
+    canvaWeb:
+      'https://www.canva.com/design/DAHBHv4XxYU/R7foB29OIv-2SOIm-7eEkw/watch?utm_content=DAHBHv4XxYU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h296494da42',
+    localImage: '/assets/planner-stickers.avif',
+    id: '62'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
