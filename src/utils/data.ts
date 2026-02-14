@@ -441,6 +441,12 @@ export const arrayCards = [
     localImage: '/assets/handwritten-quotes.avif',
     id: '63'
   },
+  {
+    title: 'App: Acitvities Maker (Word Search)',
+    canvaWeb: 'https://www.canva.com/design/DAHBS91zPXo/0Po4RehCXM4sz2qOnamdTQ/view?utm_content=DAHBS91zPXo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h53d155148a',
+    localImage: '/assets/word-search.avif',
+    id: '64'
+  }
 ];
 
 export const lengthOfProjects = arrayCards.length;
