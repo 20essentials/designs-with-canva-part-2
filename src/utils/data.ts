@@ -446,7 +446,13 @@ export const arrayCards = [
     canvaWeb: 'https://www.canva.com/design/DAHBS91zPXo/0Po4RehCXM4sz2qOnamdTQ/view?utm_content=DAHBS91zPXo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h53d155148a',
     localImage: '/assets/word-search.avif',
     id: '64'
-  }
+  },
+  {
+    title: 'CrossWords',
+    canvaWeb: 'https://www.canva.com/design/DAHBfIReaCg/R9rgA5xDPIgz7eZFpvDncA/view?utm_content=DAHBfIReaCg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc69f4c8f92',
+    localImage: '/assets/crosswords.avif',
+    id: '65'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
