@@ -461,7 +461,7 @@ export const arrayCards = [
       'https://www.canva.com/design/DAHBqnf23TE/6aJq-3_jhg1NkmmlJOEpZQ/view?utm_content=DAHBqnf23TE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20596333f3',
     localImage: '/assets/maze.avif',
     id: '66'
-  },
+  }
 ];
 
 export const lengthOfProjects = arrayCards.length;
