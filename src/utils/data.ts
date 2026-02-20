@@ -461,7 +461,14 @@ export const arrayCards = [
       'https://www.canva.com/design/DAHBqnf23TE/6aJq-3_jhg1NkmmlJOEpZQ/view?utm_content=DAHBqnf23TE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20596333f3',
     localImage: '/assets/maze.avif',
     id: '66'
-  }
+  },
+  {
+    title: 'Jigsaw Puzzle',
+    canvaWeb:
+      'https://www.canva.com/design/DAHB2hfhp9c/Z892_6EFUjA--hnHIkGE-A/view?utm_content=DAHB2hfhp9c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h05f76e1213',
+    localImage: '/assets/jigsaw-puzzle.avif',
+    id: '67'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
