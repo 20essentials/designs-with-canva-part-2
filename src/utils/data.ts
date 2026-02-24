@@ -469,6 +469,13 @@ export const arrayCards = [
     localImage: '/assets/jigsaw-puzzle.avif',
     id: '67'
   },
+  {
+    title: 'Noise Image App',
+    canvaWeb:
+      'https://www.canva.com/design/DAHCOXYJtMw/so6jYjSaBlZ2-YBFWIP5iA/view?utm_content=DAHCOXYJtMw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2943b13138',
+    localImage: '/assets/noise-image-app.avif',
+    id: '68'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
