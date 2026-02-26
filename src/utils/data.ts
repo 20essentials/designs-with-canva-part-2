@@ -476,6 +476,13 @@ export const arrayCards = [
     localImage: '/assets/noise-image-app.avif',
     id: '68'
   },
+  {
+    title: 'Tactile Embroidery Letter ',
+    canvaWeb:
+      'https://www.canva.com/design/DAHCajqDV34/tuC7_P64gcZZuhpcoROyEg/view?utm_content=DAHCajqDV34&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hebc3f13e21',
+    localImage: '/assets/tactile-embroidery-letter.avif',
+    id: '69'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
