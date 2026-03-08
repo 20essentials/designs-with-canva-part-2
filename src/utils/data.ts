@@ -483,6 +483,13 @@ export const arrayCards = [
     localImage: '/assets/tactile-embroidery-letter.avif',
     id: '69'
   },
+  {
+    title: 'Frame Maker App',
+    canvaWeb:
+      'https://www.canva.com/design/DAHDXNpZsBI/b2_lnV2bmLm_Lpm5_rfBMA/view?utm_content=DAHDXNpZsBI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21835caef2',
+    localImage: '/assets/frame-maker-app.avif',
+    id: '70'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
