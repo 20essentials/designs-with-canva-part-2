@@ -490,6 +490,13 @@ export const arrayCards = [
     localImage: '/assets/frame-maker-app.avif',
     id: '70'
   },
+  {
+    title: 'Mask Pro App',
+    canvaWeb:
+      'https://www.canva.com/design/DAHDioSvCC0/5UFpJVO7yEwVUnO0kvHgtg/view?utm_content=DAHDioSvCC0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h52ebbc73a9',
+    localImage: '/assets/mask-pro-app.avif',
+    id: '71'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
