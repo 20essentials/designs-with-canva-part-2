@@ -497,6 +497,13 @@ export const arrayCards = [
     localImage: '/assets/mask-pro-app.avif',
     id: '71'
   },
+  {
+    title: 'Tree silhouette',
+    canvaWeb:
+      'https://www.canva.com/design/DAHD60llPuk/QBQOi68Y4QgERnDZmsuLQA/watch?utm_content=DAHD60llPuk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd141330935',
+    localImage: '/assets/tree-silhouette.avif',
+    id: '72'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
