@@ -504,6 +504,13 @@ export const arrayCards = [
     localImage: '/assets/tree-silhouette.avif',
     id: '72'
   },
+  {
+    title: 'Eucalyptus Leaves',
+    canvaWeb:
+      'https://www.canva.com/design/DAHEHHtM-q8/EhnT9cRmbE5JGZFITqhrXw/watch?utm_content=DAHEHHtM-q8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h591c25a487',
+    localImage: '/assets/eucalyptus-leaves.avif',
+    id: '73'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
