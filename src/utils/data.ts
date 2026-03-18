@@ -511,6 +511,13 @@ export const arrayCards = [
     localImage: '/assets/eucalyptus-leaves.avif',
     id: '73'
   },
+  {
+    title: 'App: Art Style Changer',
+    canvaWeb:
+      'https://www.canva.com/design/DAHESVA-0us/yFoahQ7WNoBSdFVuOCyMug/watch?utm_content=DAHESVA-0us&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfc629e16b9',
+    localImage: '/assets/app-art-style-changer.avif',
+    id: '74'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
