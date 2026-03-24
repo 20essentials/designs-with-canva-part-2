@@ -518,6 +518,13 @@ export const arrayCards = [
     localImage: '/assets/app-art-style-changer.avif',
     id: '74'
   },
+  {
+    title: 'App: AI Face Expression',
+    canvaWeb:
+      'https://www.canva.com/design/DAHE2lyYghE/wxwYRJSnUDt2q8lFo-djJg/view?utm_content=DAHE2lyYghE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he4c7c793bb',
+    localImage: '/assets/app-ai-face-expression.avif',
+    id: '75'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
