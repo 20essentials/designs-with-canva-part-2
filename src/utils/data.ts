@@ -525,6 +525,13 @@ export const arrayCards = [
     localImage: '/assets/app-ai-face-expression.avif',
     id: '75'
   },
+  {
+    title: 'App: Image Upscaler',
+    canvaWeb:
+      'https://www.canva.com/design/DAHFDc7olt4/EhMy3eNqV1tYR_WZTikH0Q/view?utm_content=DAHFDc7olt4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h59038ce1eb',
+    localImage: '/assets/app-image-upscaler.avif',
+    id: '76'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
