@@ -532,6 +532,13 @@ export const arrayCards = [
     localImage: '/assets/app-image-upscaler.avif',
     id: '76'
   },
+  {
+    title: 'Doodles App',
+    canvaWeb:
+      'https://www.canva.com/design/DAHFyYnkUeI/VWa1e7zK5O36M2bcikKhsg/view?utm_content=DAHFyYnkUeI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h35f2b5c1cb',
+    localImage: '/assets/doodles-app.avif',
+    id: '77'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
