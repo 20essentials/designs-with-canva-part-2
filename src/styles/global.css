@@ -65,6 +65,10 @@ body {
   flex-direction: column;
   overflow-x: hidden;
   touch-action: none;
+
+  canva {
+    touch-action: none;
+  }
 }
 
 /***************************SCROLL***************************/
