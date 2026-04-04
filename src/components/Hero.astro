@@ -50,6 +50,10 @@ const logo2 = baseUrl('/assets/scroll-img.png');
       calc(var(--shadow-offset) * var(--light-pos-x) * -1)
         calc(var(--shadow-offset) * var(--light-pos-y) * -1) var(--shadow-blur)
         hsl(0 0% 50% / 0.75);
+
+    @media (width <= 1111px) and (orientation: portrait) {
+      zoom: 0.7;
+    }
   }
 
   .am-logo {
@@ -62,7 +66,7 @@ const logo2 = baseUrl('/assets/scroll-img.png');
     width: 7vmax;
     position: absolute;
     right: 1.5vmax;
-    bottom: 1.5vmax;
+    top: 1.5vmax;
     border-radius: 0.5vmax;
     overflow: hidden;
     mix-blend-mode: overlay;
