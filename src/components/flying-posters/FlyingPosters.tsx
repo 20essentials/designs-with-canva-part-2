@@ -432,16 +432,18 @@ class Canvas {
       media.onResize({ screen: this.screen, viewport: this.viewport })
     );
   }
+  onTouchMove(e: MouseEvent | TouchEvent) {
+    if (!this.isDown || this.scroll.position === undefined) return;
+    e.preventDefault();
+    const y = e instanceof TouchEvent ? e.touches[0].clientY : e.clientY;
+    const distance = (this.start - y) * 0.1;
+    this.scroll.target = this.scroll.position + distance;
+  }
+
   onTouchDown(e: MouseEvent | TouchEvent) {
     this.isDown = true;
     this.scroll.position = this.scroll.current;
     this.start = e instanceof TouchEvent ? e.touches[0].clientY : e.clientY;
-  }
-  onTouchMove(e: MouseEvent | TouchEvent) {
-    if (!this.isDown || !this.scroll.position) return;
-    const y = e instanceof TouchEvent ? e.touches[0].clientY : e.clientY;
-    const distance = (this.start - y) * 0.1;
-    this.scroll.target = this.scroll.position + distance;
   }
   onTouchUp() {
     this.isDown = false;
@@ -462,13 +464,13 @@ class Canvas {
   }
   addEventListeners() {
     window.addEventListener('resize', this.onResize);
-    window.addEventListener('wheel', this.onWheel);
+    window.addEventListener('wheel', this.onWheel, { passive: true });
     window.addEventListener('mousedown', this.onTouchDown);
     window.addEventListener('mousemove', this.onTouchMove);
     window.addEventListener('mouseup', this.onTouchUp);
-    window.addEventListener('touchstart', this.onTouchDown as EventListener);
-    window.addEventListener('touchmove', this.onTouchMove as EventListener);
-    window.addEventListener('touchend', this.onTouchUp as EventListener);
+    window.addEventListener('touchstart', this.onTouchDown, { passive: false });
+    window.addEventListener('touchmove', this.onTouchMove, { passive: false });
+    window.addEventListener('touchend', this.onTouchUp);
     document.addEventListener('click', this.onClick);
   }
   destroy() {
