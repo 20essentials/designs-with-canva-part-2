@@ -539,6 +539,13 @@ export const arrayCards = [
     localImage: '/assets/doodles-app.avif',
     id: '77'
   },
+  {
+    title: 'Can Mockup + Soda Label',
+    canvaWeb:
+      'https://canva.link/ke7khl0d1jhqq0q',
+    localImage: '/assets/can-mockup-and-soda-label.avif',
+    id: '78'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
