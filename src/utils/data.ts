@@ -546,6 +546,13 @@ export const arrayCards = [
     localImage: '/assets/can-mockup-and-soda-label.avif',
     id: '78'
   },
+  {
+    title: 'Sticker Effect in Canva',
+    canvaWeb:
+      'https://canva.link/t7qousac3fxekjl',
+    localImage: '/assets/sticker-effect-in-canva.avif',
+    id: '79'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
