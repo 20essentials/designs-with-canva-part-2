@@ -553,6 +553,13 @@ export const arrayCards = [
     localImage: '/assets/sticker-effect-in-canva.avif',
     id: '79'
   },
+  {
+    title: 'Gradient Rounded Letters',
+    canvaWeb:
+      'https://canva.link/aamtrbgr7ry9pxv',
+    localImage: '/assets/gradient-rounded-letters.avif',
+    id: '80'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
