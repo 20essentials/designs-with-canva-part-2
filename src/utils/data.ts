@@ -560,6 +560,13 @@ export const arrayCards = [
     localImage: '/assets/gradient-rounded-letters.avif',
     id: '80'
   },
+  {
+    title: 'Multi Outfit TryOn',
+    canvaWeb:
+      'https://canva.link/6a0jaja1dyv8zkd',
+    localImage: '/assets/multi-outfit-tryon.avif',
+    id: '81'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
