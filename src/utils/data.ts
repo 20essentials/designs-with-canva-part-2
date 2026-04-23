@@ -567,6 +567,13 @@ export const arrayCards = [
     localImage: '/assets/multi-outfit-tryon.avif',
     id: '81'
   },
+  {
+    title: 'Code Image App',
+    canvaWeb:
+      'https://canva.link/pw5mcprgvrcmnaz',
+    localImage: '/assets/code-image-app.avif',
+    id: '82'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
