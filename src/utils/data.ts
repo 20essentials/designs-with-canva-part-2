@@ -578,7 +578,7 @@ export const arrayCards = [
     title: 'Image Outliner App',
     canvaWeb:
       'https://canva.link/dso72tqr3na6v80',
-    localImage: '/assets/code-image-app.avif',
+    localImage: '/assets/image-outliner-app.avif',
     id: '83'
   },
 ];
