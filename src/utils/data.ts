@@ -574,6 +574,13 @@ export const arrayCards = [
     localImage: '/assets/code-image-app.avif',
     id: '82'
   },
+  {
+    title: 'Image Outliner App',
+    canvaWeb:
+      'https://canva.link/dso72tqr3na6v80',
+    localImage: '/assets/code-image-app.avif',
+    id: '83'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
