@@ -541,53 +541,46 @@ export const arrayCards = [
   },
   {
     title: 'Can Mockup + Soda Label',
-    canvaWeb:
-      'https://canva.link/ke7khl0d1jhqq0q',
+    canvaWeb: 'https://canva.link/ke7khl0d1jhqq0q',
     localImage: '/assets/can-mockup-and-soda-label.avif',
     id: '78'
   },
   {
     title: 'Sticker Effect in Canva',
-    canvaWeb:
-      'https://canva.link/t7qousac3fxekjl',
+    canvaWeb: 'https://canva.link/t7qousac3fxekjl',
     localImage: '/assets/sticker-effect-in-canva.avif',
     id: '79'
   },
   {
     title: 'Gradient Rounded Letters',
-    canvaWeb:
-      'https://canva.link/aamtrbgr7ry9pxv',
+    canvaWeb: 'https://canva.link/aamtrbgr7ry9pxv',
     localImage: '/assets/gradient-rounded-letters.avif',
     id: '80'
   },
   {
     title: 'Multi Outfit TryOn',
-    canvaWeb:
-      'https://canva.link/6a0jaja1dyv8zkd',
+    canvaWeb: 'https://canva.link/6a0jaja1dyv8zkd',
     localImage: '/assets/multi-outfit-tryon.avif',
     id: '81'
   },
   {
     title: 'Code Image App',
-    canvaWeb:
-      'https://canva.link/pw5mcprgvrcmnaz',
+    canvaWeb: 'https://canva.link/pw5mcprgvrcmnaz',
     localImage: '/assets/code-image-app.avif',
     id: '82'
   },
   {
     title: 'Image Outliner App',
-    canvaWeb:
-      'https://canva.link/dso72tqr3na6v80',
+    canvaWeb: 'https://canva.link/dso72tqr3na6v80',
     localImage: '/assets/image-outliner-app.avif',
     id: '83'
   },
   {
     title: 'Topography Contour',
-    canvaWeb:
-      'https://canva.link/hy7u8bg89fzixqd',
+    canvaWeb: 'https://canva.link/hy7u8bg89fzixqd',
     localImage: '/assets/topography-contour.avif',
     id: '84'
-  },
+  }
 ];
 
 export const lengthOfProjects = arrayCards.length;
