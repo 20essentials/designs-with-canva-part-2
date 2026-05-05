@@ -580,6 +580,12 @@ export const arrayCards = [
     canvaWeb: 'https://canva.link/hy7u8bg89fzixqd',
     localImage: '/assets/topography-contour.avif',
     id: '84'
+  },
+  {
+    title: 'Post-it Text Reveal Effect',
+    canvaWeb: 'https://canva.link/pz2zxejax78p1eh',
+    localImage: '/assets/post-it-text-reveal-effect.avif',
+    id: '85'
   }
 ];
 
