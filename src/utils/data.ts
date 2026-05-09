@@ -586,7 +586,13 @@ export const arrayCards = [
     canvaWeb: 'https://canva.link/pz2zxejax78p1eh',
     localImage: '/assets/post-it-text-reveal-effect.avif',
     id: '85'
-  }
+  },
+  {
+    title: 'Mockup3D app',
+    canvaWeb: 'https://canva.link/st87k6cibaszre5',
+    localImage: '/assets/mockup3d-app.avif',
+    id: '86'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
