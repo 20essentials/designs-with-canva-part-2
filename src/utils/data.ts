@@ -593,6 +593,12 @@ export const arrayCards = [
     localImage: '/assets/mockup3d-app.avif',
     id: '86'
   },
+  {
+    title: 'Simplebooklet',
+    canvaWeb: 'https://midd.me/zIe7',
+    localImage: '/assets/simplebooklet.avif',
+    id: '87'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
