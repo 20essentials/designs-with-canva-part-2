@@ -599,6 +599,12 @@ export const arrayCards = [
     localImage: '/assets/simplebooklet.avif',
     id: '87'
   },
+  {
+    title: 'Texture App',
+    canvaWeb: 'https://canva.link/w4fwatd8igbg4f1',
+    localImage: '/assets/texture-app.avif',
+    id: '88'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
