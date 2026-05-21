@@ -605,6 +605,12 @@ export const arrayCards = [
     localImage: '/assets/texture-app.avif',
     id: '88'
   },
+  {
+    title: 'Template Video + IA Generation',
+    canvaWeb: 'https://canva.link/puxrfgqt0qi8hz3',
+    localImage: '/assets/template-video-and-ia-generation.avif',
+    id: '89'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
