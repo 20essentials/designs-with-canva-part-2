@@ -609,8 +609,15 @@ export const arrayCards = [
     title: 'Template Video + IA Generation',
     canvaWeb: 'https://canva.link/puxrfgqt0qi8hz3',
     localImage: '/assets/template-video-and-ia-generation.avif',
-    id: '89'
+    id: '89' 
   },
+  {
+    title: 'Text Poster App',
+    canvaWeb: 'https://canva.link/5nw5x1vplth41u6',
+    localImage: '/assets/text-poster-app.avif',
+    id: '90' 
+  },
+
 ];
 
 export const lengthOfProjects = arrayCards.length;
