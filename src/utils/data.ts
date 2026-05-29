@@ -617,6 +617,12 @@ export const arrayCards = [
     localImage: '/assets/text-poster-app.avif',
     id: '90' 
   },
+  {
+    title: 'Backdrop Shadow on Image',
+    canvaWeb: 'https://www.canva.com/design/DAHLCW6f8oA/FZG9NxbSlRA3n8A_ez4ogg/view?utm_content=DAHLCW6f8oA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h169d60df8a',
+    localImage: '/assets/backdrop-shadow-on-image.avif',
+    id: '91' 
+  },
 
 ];
 
