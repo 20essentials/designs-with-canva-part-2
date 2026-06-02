@@ -623,6 +623,12 @@ export const arrayCards = [
     localImage: '/assets/backdrop-shadow-on-image.avif',
     id: '91' 
   },
+  {
+    title: 'App: Before and After',
+    canvaWeb: 'https://canva.link/cm72ah05km5fx70',
+    localImage: '/assets/app-before-and-after.avif',
+    id: '92' 
+  },
 
 ];
 
