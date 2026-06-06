@@ -629,6 +629,12 @@ export const arrayCards = [
     localImage: '/assets/app-before-and-after.avif',
     id: '92' 
   },
+  {
+    title: 'Page Turner Effect',
+    canvaWeb: 'https://canva.link/744ex9nrbs7g8z7',
+    localImage: '/assets/page-turner-effect.avif',
+    id: '93' 
+  },
 
 ];
 
