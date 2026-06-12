@@ -609,33 +609,33 @@ export const arrayCards = [
     title: 'Template Video + IA Generation',
     canvaWeb: 'https://canva.link/puxrfgqt0qi8hz3',
     localImage: '/assets/template-video-and-ia-generation.avif',
-    id: '89' 
+    id: '89'
   },
   {
     title: 'Text Poster App',
     canvaWeb: 'https://canva.link/5nw5x1vplth41u6',
     localImage: '/assets/text-poster-app.avif',
-    id: '90' 
+    id: '90'
   },
   {
     title: 'Backdrop Shadow on Image',
-    canvaWeb: 'https://www.canva.com/design/DAHLCW6f8oA/FZG9NxbSlRA3n8A_ez4ogg/view?utm_content=DAHLCW6f8oA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h169d60df8a',
+    canvaWeb:
+      'https://www.canva.com/design/DAHLCW6f8oA/FZG9NxbSlRA3n8A_ez4ogg/view?utm_content=DAHLCW6f8oA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h169d60df8a',
     localImage: '/assets/backdrop-shadow-on-image.avif',
-    id: '91' 
+    id: '91'
   },
   {
     title: 'App: Before and After',
     canvaWeb: 'https://canva.link/cm72ah05km5fx70',
     localImage: '/assets/app-before-and-after.avif',
-    id: '92' 
+    id: '92'
   },
   {
     title: 'Page Turner Effect',
     canvaWeb: 'https://canva.link/744ex9nrbs7g8z7',
     localImage: '/assets/page-turner-effect.avif',
-    id: '93' 
-  },
-
+    id: '93'
+  }
 ];
 
 export const lengthOfProjects = arrayCards.length;
