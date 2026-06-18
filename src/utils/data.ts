@@ -642,6 +642,7 @@ export const arrayCards = [
     localImage: '/assets/planner-stickers-2.avif',
     id: '94'
   },
+  
 ];
 
 export const lengthOfProjects = arrayCards.length;
