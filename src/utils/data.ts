@@ -635,7 +635,13 @@ export const arrayCards = [
     canvaWeb: 'https://canva.link/744ex9nrbs7g8z7',
     localImage: '/assets/page-turner-effect.avif',
     id: '93'
-  }
+  },
+  {
+    title: 'Planner Sticker Bleb',
+    canvaWeb: 'https://canva.link/1war4s7v8an1gry',
+    localImage: '/assets/planner-stickers-2.avif',
+    id: '94'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
