@@ -642,6 +642,12 @@ export const arrayCards = [
     localImage: '/assets/planner-stickers-2.avif',
     id: '94'
   },
+  {
+    title: 'Metro Billboard Ia Video Template',
+    canvaWeb: 'https://canva.link/50ouaqb965e62s5',
+    localImage: '/assets/metro-billboard-ia-video-template.avif',
+    id: '95'
+  },
   
 ];
 
