@@ -648,6 +648,12 @@ export const arrayCards = [
     localImage: '/assets/metro-billboard-ia-video-template.avif',
     id: '95'
   },
+  {
+    title: 'Canva Ia - Cyber-Tech Instagram Carousel',
+    canvaWeb: 'https://canva.link/ehgdlrvn6sgofwr',
+    localImage: '/assets/canva-ia-cyber-tech-instagram-carousel.avif',
+    id: '96'
+  },
   
 ];
 
