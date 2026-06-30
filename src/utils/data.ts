@@ -654,7 +654,12 @@ export const arrayCards = [
     localImage: '/assets/canva-ia-cyber-tech-instagram-carousel.avif',
     id: '96'
   },
-  
+  {
+    title: 'Mask Forms',
+    canvaWeb: 'https://canva.link/9ijxivhcpmq2ne2',
+    localImage: '/assets/mask-forms.avif',
+    id: '97'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
