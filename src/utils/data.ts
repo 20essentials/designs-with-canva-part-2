@@ -660,6 +660,12 @@ export const arrayCards = [
     localImage: '/assets/mask-forms.avif',
     id: '97'
   },
+  {
+    title: 'Dynamic QR Code with Branding + Image to Video',
+    canvaWeb: 'https://canva.link/8yx8py1rfm0ng19',
+    localImage: '/assets/dynamic-qr-code-with-branding-and-image-to-video.avif',
+    id: '98'
+  },
 ];
 
 export const lengthOfProjects = arrayCards.length;
