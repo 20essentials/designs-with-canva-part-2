@@ -666,6 +666,14 @@ export const arrayCards = [
     localImage: '/assets/dynamic-qr-code-with-branding-and-image-to-video.avif',
     id: '98'
   },
+  {
+    title: 'Shape Cutout App',
+    canvaWeb: 'https://canva.link/7acjlnsidm54ciq',
+    localImage: '/assets/shape-cutout-app',
+    id: '99'
+  },
 ];
+
+
 
 export const lengthOfProjects = arrayCards.length;
