@@ -678,6 +678,12 @@ export const arrayCards = [
     localImage: '/assets/epic-anime-mecha-generated-by-gemini.avif',
     id: '100'
   },
+  {
+    title: 'Design Wrap',
+    canvaWeb: 'https://canva.link/7hrtbnvafe550yy',
+    localImage: '/assets/design-wrap.avif',
+    id: '101'
+  },
 ];
 
 
