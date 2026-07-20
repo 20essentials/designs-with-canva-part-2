@@ -685,7 +685,7 @@ export const arrayCards = [
     id: '101'
   },
   {
-    title: 'Design Wrap',
+    title: 'Shape Cutout + Background transparent + Layers',
     canvaWeb: 'https://canva.link/1nawr5yo5b04jtu',
     localImage: '/assets/shape-cutout-and-background-transparent-and-layers.avif',
     id: '102'
