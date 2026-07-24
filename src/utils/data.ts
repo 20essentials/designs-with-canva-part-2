@@ -690,6 +690,12 @@ export const arrayCards = [
     localImage: '/assets/shape-cutout-and-background-transparent-and-layers.avif',
     id: '102'
   },
+  {
+    title: 'Collage Maker App',
+    canvaWeb: 'https://canva.link/q0lk2ewe5vro474',
+    localImage: '/assets/collage-maker-app.avif',
+    id: '103'
+  },
 ];
 
 
