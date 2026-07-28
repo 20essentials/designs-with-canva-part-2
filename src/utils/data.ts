@@ -696,6 +696,12 @@ export const arrayCards = [
     localImage: '/assets/collage-maker-app.avif',
     id: '103'
   },
+  {
+    title: 'Frame Collage App',
+    canvaWeb: 'https://canva.link/vwewkcm53qtc0wf',
+    localImage: '/assets/frame-collage-app.avif',
+    id: '104'
+  },
 ];
 
 
