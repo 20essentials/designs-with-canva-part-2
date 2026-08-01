@@ -702,6 +702,12 @@ export const arrayCards = [
     localImage: '/assets/frame-collage-app.avif',
     id: '104'
   },
+  {
+    title: 'Random Post',
+    canvaWeb: 'https://canva.link/0kcfjj7157nzz57',
+    localImage: '/assets/random-post.avif',
+    id: '105'
+  },
 ];
 
 
