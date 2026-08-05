@@ -708,6 +708,12 @@ export const arrayCards = [
     localImage: '/assets/random-post.avif',
     id: '105'
   },
+  {
+    title: 'Distortly App',
+    canvaWeb: 'https://canva.link/ioep7aocjjuylzr',
+    localImage: '/assets/distortly-app.avif',
+    id: '106'
+  },
 ];
 
 
