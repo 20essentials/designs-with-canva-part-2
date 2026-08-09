@@ -714,6 +714,12 @@ export const arrayCards = [
     localImage: '/assets/distortly-app.avif',
     id: '106'
   },
+  {
+    title: 'Image Splitter',
+    canvaWeb: 'https://canva.link/i8gaixxddz1qaiy',
+    localImage: '/assets/image-splitter.avif',
+    id: '107'
+  },
 ];
 
 
