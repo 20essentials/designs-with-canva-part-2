@@ -720,6 +720,12 @@ export const arrayCards = [
     localImage: '/assets/image-splitter.avif',
     id: '107'
   },
+  {
+    title: 'Trace To frame app',
+    canvaWeb: 'https://canva.link/6t994nxw8s0e99n',
+    localImage: '/assets/trace-to-frame-app.avif',
+    id: '108'
+  },
 ];
 
 
