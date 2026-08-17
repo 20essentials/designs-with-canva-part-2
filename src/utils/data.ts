@@ -726,6 +726,12 @@ export const arrayCards = [
     localImage: '/assets/trace-to-frame-app.avif',
     id: '108'
   },
+  {
+    title: 'Outline Image Animation',
+    canvaWeb: 'https://canva.link/aikrryawwvqjend',
+    localImage: '/assets/outline-image-animation.avif',
+    id: '109'
+  },
 ];
 
 
