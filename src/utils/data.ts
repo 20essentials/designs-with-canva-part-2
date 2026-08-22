@@ -732,6 +732,12 @@ export const arrayCards = [
     localImage: '/assets/outline-image-animation.avif',
     id: '109'
   },
+  {
+    title: 'Screen App',
+    canvaWeb: 'https://canva.link/hf2zhw16fphgb6z',
+    localImage: '/assets/screen-app.avif',
+    id: '110'
+  },
 ];
 
 
