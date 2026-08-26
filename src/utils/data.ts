@@ -738,6 +738,12 @@ export const arrayCards = [
     localImage: '/assets/screen-app.avif',
     id: '110'
   },
+  {
+    title: 'Hollow Text Effect and Layers',
+    canvaWeb: 'https://canva.link/31nf1lmef36aeoq',
+    localImage: '/assets/.avif',
+    id: '110'
+  },
 ];
 
 
