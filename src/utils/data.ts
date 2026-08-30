@@ -741,8 +741,14 @@ export const arrayCards = [
   {
     title: 'Hollow Text Effect and Layers',
     canvaWeb: 'https://canva.link/31nf1lmef36aeoq',
-    localImage: '/assets/.avif',
-    id: '110'
+    localImage: '/assets/hollow-text-effect-and-layers.avif',
+    id: '111'
+  },
+  {
+    title: 'Frame Maker Example app',
+    canvaWeb: 'https://canva.link/rl66ld34ji4fk6w',
+    localImage: '/assets/frame-maker-example-app.avif',
+    id: '112'
   },
 ];
 
