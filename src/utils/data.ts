@@ -750,6 +750,12 @@ export const arrayCards = [
     localImage: '/assets/frame-maker-example-app.avif',
     id: '112'
   },
+  {
+    title: 'DephtLoop app',
+    canvaWeb: 'https://canva.link/1vwt6c5kr6hs858',
+    localImage: '/assets/dephtloop-app.avif',
+    id: '113'
+  },
 ];
 
 
