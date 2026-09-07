@@ -756,6 +756,12 @@ export const arrayCards = [
     localImage: '/assets/dephtloop-app.avif',
     id: '113'
   },
+  {
+    title: 'Plane Drag Animation',
+    canvaWeb: 'https://canva.link/2unx1dt4ofp6orv',
+    localImage: '/assets/plane-drag-animation.avif',
+    id: '114'
+  },
 ];
 
 
