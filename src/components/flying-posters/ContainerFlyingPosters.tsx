@@ -6,7 +6,7 @@ const items = arrayCards
   .toSorted(() => Math.random() - 0.5)
   .map(({ localImage, canvaWeb }) => ({
     srcImage: baseUrl(localImage),
-    web: canvaWeb
+    web: baseUrl(canvaWeb)
   }));
 
 export const ContainerFlyingPosters = () => {

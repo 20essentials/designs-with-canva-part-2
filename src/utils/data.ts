@@ -762,6 +762,12 @@ export const arrayCards = [
     localImage: '/assets/plane-drag-animation.avif',
     id: '114'
   },
+  {
+    title: 'Split Screen Effect',
+    canvaWeb: '/assets/split-screen-effect.mp4',
+    localImage: '/assets/split-screen-effect.avif',
+    id: '115'
+  },
 ];
 
 
